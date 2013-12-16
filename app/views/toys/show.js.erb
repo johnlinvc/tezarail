@@ -1,2 +1,2 @@
 
-$('.ida').replaceWith('j <%render 'ida', :c_toy => @c_toy %>')
+$('#ida').replaceWith('<%=escape_javascript(render 'ida', :c_toy => @toy )%>')
